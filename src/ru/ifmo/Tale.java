@@ -14,9 +14,9 @@ public class Tale {
     private static Stack<Acts> acts = new Stack<>();
 
     public static void main(String[] args){
-        //hello();
-        //command();
-        SwingUtilities.invokeLater(() -> gui());
+        hello();
+        command();
+        //SwingUtilities.invokeLater(() -> gui());
     }
 
     private static void gui(){
